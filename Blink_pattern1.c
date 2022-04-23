@@ -28,7 +28,7 @@ void app_main()
     //blinks 1 times at the interval of 1s to indicate the start of the program
     while(1)
     {
-        //blinks all the 8 leds 5 times
+        //blinks all the 8 leds 3 times
         for (int i = 0; i < 3; i++)
         {
             ESP_ERROR_CHECK(set_bar_graph(0xFF));
