@@ -23,9 +23,7 @@ void app_main()
 
 	ESP_ERROR_CHECK(enable_bar_graph());
 	// enable_bar_graph() turns on the gpio pins, if it succeeds it returns ESP_OK else it returns ESP_FAIL
-	// If the argument of ESP_ERROR_CHECK() is not equal ESP_OK, then an error message is printed on the console, and abort() is called. 
-	
-    //blinks 1 times at the interval of 1s to indicate the start of the program
+	// If the argument of ESP_ERROR_CHECK() is not equal ESP_OK, then an error message is printed on the console, and abort() is called.
     while(1)
     {
         //blinks all the 8 leds 3 times
